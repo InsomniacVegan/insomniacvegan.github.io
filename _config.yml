@@ -23,7 +23,7 @@ email: luke@insomniacvegan.com
 description: >- # this means to ignore newlines until "baseurl:"
   Personal site of a physicist, programmer, nerd.
 
-logo: favicon.ico  
+logo: 8_bit_bbg_2.png 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: insomniacvegan
