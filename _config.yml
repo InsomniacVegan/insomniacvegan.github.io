@@ -21,13 +21,14 @@
 title: InsomniacVegan
 email: luke@insomniacvegan.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Personal site of physicist, programmer, nerd.
+  Personal site of a physicist, programmer, nerd.
 
-logo: /home/lee506/Pictures/8_bit_dbg.png  
+logo: favicon.ico  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: insomniacvegan
 github_username:  insomniacvegan
+
 
 # Build settings
 theme: jekyll-theme-minimal
