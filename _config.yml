@@ -31,7 +31,7 @@ github_username:  insomniacvegan
 
 
 # Build settings
-theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes@4.20.2
 plugins:
   - jekyll-feed
   - jekyll-include-cache
