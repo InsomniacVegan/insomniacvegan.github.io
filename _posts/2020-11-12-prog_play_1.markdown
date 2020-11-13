@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title:  "[Programming for Play] Sticky Asteroids - Part 1"
 date:   2020-11-12 19:54:00 +0000
 categories: programming play asteroids hpc

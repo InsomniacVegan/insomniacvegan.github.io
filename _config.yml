@@ -34,7 +34,6 @@ github_username:  insomniacvegan
 remote_theme: fongandrew/hydeout
 plugins:
   - jekyll-feed
-  - jekyll-include-cache
 
 paginate: 5
 
