@@ -268,7 +268,7 @@ pre code { background-color: transparent; color: inherit; font-size: 100%; paddi
 body { background-attachment: fixed; background-color: #202020; background-image: linear-gradient(to bottom, #323232, #0e0e0e); color: rgba(255, 255, 255, 0.75); display: flex; flex-direction: column; min-height: 100vh; }
 
 #sidebar { flex: 0 0 auto; padding: 2rem; }
-#sidebar .site-title { font-family: 'Abril Fatface', serif; font-size: 1.25rem; font-weight: normal; margin-bottom: 0.5rem; margin-top: 0; }
+#sidebar .site-title { font-family: 'Abril Fatface', serif; font-size: 1rem; font-weight: normal; margin-bottom: 0.5rem; margin-top: 0; }
 #sidebar .site-title .back-arrow { margin-right: 0.5rem; }
 
 .content { background: #fff; color: #515151; padding: 2rem; }
@@ -300,7 +300,7 @@ body { background-attachment: fixed; background-color: #202020; background-image
   #sidebar, .home #sidebar { text-align: left; width: 18rem; }
   #sidebar > *:last-child, .home #sidebar > *:last-child { margin-bottom: 0; }
   #sidebar { position: fixed; bottom: 0; left: 0; }
-  #sidebar .site-title { font-size: 3.25rem; }
+  #sidebar .site-title { font-size: 1.5rem; }
   #sidebar .site-title .back-arrow { display: none; }
   #sidebar p.lead, #sidebar header ~ * { display: block; }
   #sidebar header ~ nav { display: flex; }
