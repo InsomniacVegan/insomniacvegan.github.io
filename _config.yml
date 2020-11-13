@@ -31,7 +31,6 @@ github_username:  insomniacvegan
 
 
 # Build settings
-remote_theme: fongandrew/hydeout
 plugins:
   - jekyll-feed
 
