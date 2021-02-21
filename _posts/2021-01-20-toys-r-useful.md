@@ -10,7 +10,7 @@ I had been following developments around the coronavirus for some time, after al
 
 So one evening in early March I sat down and created a basic model for infections in a population. This was primarily just an interest project but it also gave me an opportunity to understand some of the mechanisms behind upcoming public health policy.
 
-# Individual based modelling
+# The Ising model
 
 I decided to base my model on one which I have used numerous times before, first as an undergraduate and later when creating a demo for my research group to show, the Ising model.
 
@@ -29,6 +29,21 @@ The key mechanism which underlies the Ising model is the flipping of spin states
     
     * The test is done by generating a random number between 0 and 1 and seeing if it is lower than the calculated P
     * If so then the spin is flipped and the process continues
+
+This highlights one of the main uses of Monte Carlo methods, testing for statistical outcomes arising from individual occurences - in this case the magnetisation of a material due to spin-flipping at elevated temperatures.
+
+(I have previously coded a simple version of the Ising model with visual output to terminal using Curses that can be found [here](https://github.com/InsomniacVegan/ising-model) if you want to see the spin-flipping in action)
+
+# Infection modelling
+
+My curiosity was sparked when I realised that each spin site could be treated as an individual and the binary spin-state could simply be the infected status of the individual.
+
+In this case the model can borrow heavily from the Ising implementation but change the probability test to rely on relevant factors controlling infection in the population. Since I was only interested in trends for the data, rather than any quantified results, I chose two broad factors to determine infection probability; the level of interventions in place to bring infections down and the 'base' infectiousness of the virus often given as R_0.
+
+Thus our probability is now given as:
+
+> P = exp(-(I/R_0))
+
 
 
 
