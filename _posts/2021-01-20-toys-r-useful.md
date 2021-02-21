@@ -69,7 +69,7 @@ As such it makes sense to combine the data, the binary infection and immunity st
 
 > class Person:
 >    """Base individual for COVID-19 model"""
->   
+>    
 >    def __init__(self):
 >        # Infection
 >        self.infected   = False
